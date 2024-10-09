@@ -1,0 +1,1 @@
+Artikel: https://www.volkskrant.nl/binnenland/forse-stijging-snelheidsboetes-door-flexibele-flitspaal-bij-rotterdam-is-het-elke-twee-minuten-raak~b23ea07d/
