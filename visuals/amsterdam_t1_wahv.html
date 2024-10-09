@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_8634d54387f20778a8e734205ae9aaf5 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_8634d54387f20778a8e734205ae9aaf5" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_8634d54387f20778a8e734205ae9aaf5 = L.map(
+                "map_8634d54387f20778a8e734205ae9aaf5",
+                {
+                    center: [52.3676, 4.9041],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_f1c3cf727eaa86f7aea7222bc5adf9b6 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_f1c3cf727eaa86f7aea7222bc5adf9b6.addTo(map_8634d54387f20778a8e734205ae9aaf5);
+        
+    
+            var marker_8bd40b43385074f789fd2ca300f78567 = L.marker(
+                [52.3919895, 4.8360437],
+                {}
+            ).addTo(map_8634d54387f20778a8e734205ae9aaf5);
+        
+    
+        var popup_a92062c1092d33a7f436031cbedf70c1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_55b6a5936b8b2f7d8800ed3b2a865a11 = $(`<div id="html_55b6a5936b8b2f7d8800ed3b2a865a11" style="width: 100.0%; height: 100.0%;">Aantal snelheidsovertredingen: 822 | Weg: 3210 amsterdam s102</div>`)[0];
+                popup_a92062c1092d33a7f436031cbedf70c1.setContent(html_55b6a5936b8b2f7d8800ed3b2a865a11);
+            
+        
+
+        marker_8bd40b43385074f789fd2ca300f78567.bindPopup(popup_a92062c1092d33a7f436031cbedf70c1)
+        ;
+
+        
+    
+    
+            var marker_23076dbb339cb079988ea528fde1c770 = L.marker(
+                [52.2977756, 4.9588875],
+                {}
+            ).addTo(map_8634d54387f20778a8e734205ae9aaf5);
+        
+    
+        var popup_91ee75f654a0efa23f22b0c776c62d4a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b511d30d29d30503ab8a0b513854fa0d = $(`<div id="html_b511d30d29d30503ab8a0b513854fa0d" style="width: 100.0%; height: 100.0%;">Aantal snelheidsovertredingen: 1294 | Weg: 3211 amsterdam s112</div>`)[0];
+                popup_91ee75f654a0efa23f22b0c776c62d4a.setContent(html_b511d30d29d30503ab8a0b513854fa0d);
+            
+        
+
+        marker_23076dbb339cb079988ea528fde1c770.bindPopup(popup_91ee75f654a0efa23f22b0c776c62d4a)
+        ;
+
+        
+    
+    
+            var marker_68c16159061b7474b61a36d5d34df641 = L.marker(
+                [52.3644314, 4.9780388],
+                {}
+            ).addTo(map_8634d54387f20778a8e734205ae9aaf5);
+        
+    
+        var popup_d85e0b91fb0950befb754fd67b0df46f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1e01c408efe67beb1fd18d9844fe0820 = $(`<div id="html_1e01c408efe67beb1fd18d9844fe0820" style="width: 100.0%; height: 100.0%;">Aantal snelheidsovertredingen: 1278 | Weg: 3311 amsterdam s114</div>`)[0];
+                popup_d85e0b91fb0950befb754fd67b0df46f.setContent(html_1e01c408efe67beb1fd18d9844fe0820);
+            
+        
+
+        marker_68c16159061b7474b61a36d5d34df641.bindPopup(popup_d85e0b91fb0950befb754fd67b0df46f)
+        ;
+
+        
+    
+    
+            var marker_bcb3fcba643f104499546838d8fb71d3 = L.marker(
+                [52.3644314, 4.9780388],
+                {}
+            ).addTo(map_8634d54387f20778a8e734205ae9aaf5);
+        
+    
+        var popup_69df455f22e34a96fe2e75015929fd60 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_183ea19bf3991a54867b187feac255ec = $(`<div id="html_183ea19bf3991a54867b187feac255ec" style="width: 100.0%; height: 100.0%;">Aantal snelheidsovertredingen: 2620 | Weg: 3312 amsterdam s114</div>`)[0];
+                popup_69df455f22e34a96fe2e75015929fd60.setContent(html_183ea19bf3991a54867b187feac255ec);
+            
+        
+
+        marker_bcb3fcba643f104499546838d8fb71d3.bindPopup(popup_69df455f22e34a96fe2e75015929fd60)
+        ;
+
+        
+    
+    
+            var marker_8e02fac3934b396c72e2a8adafbbbf13 = L.marker(
+                [52.4116506, 4.9429003],
+                {}
+            ).addTo(map_8634d54387f20778a8e734205ae9aaf5);
+        
+    
+        var popup_1cea14040eacac40c33d5a9f39a87c68 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d8c46108d5c39bf633914e7b3d5c94fc = $(`<div id="html_d8c46108d5c39bf633914e7b3d5c94fc" style="width: 100.0%; height: 100.0%;">Aantal snelheidsovertredingen: 1793 | Weg: 3434 amsterdam n247</div>`)[0];
+                popup_1cea14040eacac40c33d5a9f39a87c68.setContent(html_d8c46108d5c39bf633914e7b3d5c94fc);
+            
+        
+
+        marker_8e02fac3934b396c72e2a8adafbbbf13.bindPopup(popup_1cea14040eacac40c33d5a9f39a87c68)
+        ;
+
+        
+    
+    
+            var marker_f6522d9f4527e0fbafde99cde8fa0160 = L.marker(
+                [52.3660805, 4.8031638],
+                {}
+            ).addTo(map_8634d54387f20778a8e734205ae9aaf5);
+        
+    
+        var popup_a210d5baf4776feb4f81649e6fe471aa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0ed808f1d730f3fe2d55505b4709ade8 = $(`<div id="html_0ed808f1d730f3fe2d55505b4709ade8" style="width: 100.0%; height: 100.0%;">Aantal snelheidsovertredingen: 87 | Weg: 3435 amsterdam s106</div>`)[0];
+                popup_a210d5baf4776feb4f81649e6fe471aa.setContent(html_0ed808f1d730f3fe2d55505b4709ade8);
+            
+        
+
+        marker_f6522d9f4527e0fbafde99cde8fa0160.bindPopup(popup_a210d5baf4776feb4f81649e6fe471aa)
+        ;
+
+        
+    
+    
+            var marker_d0c6e7dca0dbbe6e0e08f4e5b24bfbfb = L.marker(
+                [52.3492448, 4.8275699],
+                {}
+            ).addTo(map_8634d54387f20778a8e734205ae9aaf5);
+        
+    
+        var popup_24553c0d83c738a7a4af83dc06c138af = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_81579e24ed67f4a0e42475af85643bcc = $(`<div id="html_81579e24ed67f4a0e42475af85643bcc" style="width: 100.0%; height: 100.0%;">Aantal snelheidsovertredingen: 112 | Weg: 3979 amsterdam s107</div>`)[0];
+                popup_24553c0d83c738a7a4af83dc06c138af.setContent(html_81579e24ed67f4a0e42475af85643bcc);
+            
+        
+
+        marker_d0c6e7dca0dbbe6e0e08f4e5b24bfbfb.bindPopup(popup_24553c0d83c738a7a4af83dc06c138af)
+        ;
+
+        
+    
+    
+            var marker_9860b584d7243743025eff049a2210af = L.marker(
+                [52.3754371, 4.8644033],
+                {}
+            ).addTo(map_8634d54387f20778a8e734205ae9aaf5);
+        
+    
+        var popup_b9957cedcd07aaea8a56240ba2646151 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4ec04a59d8f6b197974651765e3102cc = $(`<div id="html_4ec04a59d8f6b197974651765e3102cc" style="width: 100.0%; height: 100.0%;">Aantal snelheidsovertredingen: 406 | Weg: 3985 amsterdam s105</div>`)[0];
+                popup_b9957cedcd07aaea8a56240ba2646151.setContent(html_4ec04a59d8f6b197974651765e3102cc);
+            
+        
+
+        marker_9860b584d7243743025eff049a2210af.bindPopup(popup_b9957cedcd07aaea8a56240ba2646151)
+        ;
+
+        
+    
+    
+            var marker_294df506e39d9d27fc1377145fc7e233 = L.marker(
+                [52.3642895, 4.9061955],
+                {}
+            ).addTo(map_8634d54387f20778a8e734205ae9aaf5);
+        
+    
+        var popup_dcae82d6e8181ebccf68b44fccecc39a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_865f4393f572b2afeb54b4b52c04dfa7 = $(`<div id="html_865f4393f572b2afeb54b4b52c04dfa7" style="width: 100.0%; height: 100.0%;">Aantal snelheidsovertredingen: 2171 | Weg: 4311 amsterdam weesperstraat</div>`)[0];
+                popup_dcae82d6e8181ebccf68b44fccecc39a.setContent(html_865f4393f572b2afeb54b4b52c04dfa7);
+            
+        
+
+        marker_294df506e39d9d27fc1377145fc7e233.bindPopup(popup_dcae82d6e8181ebccf68b44fccecc39a)
+        ;
+
+        
+    
+    
+            var marker_d23544ab021183c370eb5071d49dddcd = L.marker(
+                [52.3919376, 4.9128932],
+                {}
+            ).addTo(map_8634d54387f20778a8e734205ae9aaf5);
+        
+    
+        var popup_90cce4f40950af2bb49295426aba37bf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_295048e70ab370fd831c3f5571349029 = $(`<div id="html_295048e70ab370fd831c3f5571349029" style="width: 100.0%; height: 100.0%;">Aantal snelheidsovertredingen: 5811 | Weg: 4317 amsterdam s118</div>`)[0];
+                popup_90cce4f40950af2bb49295426aba37bf.setContent(html_295048e70ab370fd831c3f5571349029);
+            
+        
+
+        marker_d23544ab021183c370eb5071d49dddcd.bindPopup(popup_90cce4f40950af2bb49295426aba37bf)
+        ;
+
+        
+    
+    
+            var marker_af95361bc5c8889e54f7432ed83c136e = L.marker(
+                [52.2977756, 4.9588875],
+                {}
+            ).addTo(map_8634d54387f20778a8e734205ae9aaf5);
+        
+    
+        var popup_8715a463a0a472fbb777053df1e6cdf3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8a8823d7b8c07a4a7630d3d05b1d6b87 = $(`<div id="html_8a8823d7b8c07a4a7630d3d05b1d6b87" style="width: 100.0%; height: 100.0%;">Aantal snelheidsovertredingen: 7543 | Weg: 4637 amsterdam meibergdreef</div>`)[0];
+                popup_8715a463a0a472fbb777053df1e6cdf3.setContent(html_8a8823d7b8c07a4a7630d3d05b1d6b87);
+            
+        
+
+        marker_af95361bc5c8889e54f7432ed83c136e.bindPopup(popup_8715a463a0a472fbb777053df1e6cdf3)
+        ;
+
+        
+    
+</script>
+</html>
